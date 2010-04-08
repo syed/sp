@@ -1,0 +1,9 @@
+The formula for finding sum of divisors is 
+
+
+\prod_{i=1}^k {p_i^{m_i + 1} - 1 \over p_i - 1}
+
+
+( http://planetmath.org/encyclopedia/FormulaForSumOfDivisors.html ) 
+
+first find all primes till that num ( sieve ) then convert num into prime factors . Then use the formula 
