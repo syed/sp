@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include<math.h>
 typedef unsigned long long ulong ;
 
 int main()
@@ -12,14 +12,23 @@ int main()
 	{
 		sum = 0;
 		scanf("%llu" , &num);
-		for ( i = 1 ;  i<=(num/2) - ((num/2)%i) ; i++ )
+		int sqrt_n = sqrt(num);
+		for ( i = 1 ;  i<= sqrt_n ; i++ )
 		{
 			if( num %i == 0 )
 			{
-				sum+=i;
+				if ( i == num/i )
+				{
+					sum+=i;
+				}
+				else
+				{
+					sum+=i+num/i;
+				}
 			}
+
 		}
-		printf("%llu\n",sum);
+		printf("%llu\n",sum-num);
 	}
 }
 
