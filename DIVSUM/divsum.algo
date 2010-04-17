@@ -7,3 +7,9 @@ The formula for finding sum of divisors is
 ( http://planetmath.org/encyclopedia/FormulaForSumOfDivisors.html ) 
 
 first find all primes till that num ( sieve ) then convert num into prime factors . Then use the formula 
+
+
+other algo 
+
+
+go till the root of that num then find n/i and i 
