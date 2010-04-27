@@ -1,4 +1,5 @@
 #!/usr/bin/python
+<<<<<<< HEAD:TRICOUNT/tricount.py
 
 
 cases_s = raw_input()
@@ -19,3 +20,11 @@ while cases :
 
 
 
+=======
+cases = int(raw_input())
+while cases : 
+	n = int(raw_input())
+	print (n*(n+2)*(2*n+1))/8
+	cases -=1
+
+>>>>>>> d01db76fefc1f7a2620d84d6513fd4432ddc58e7:TRICOUNT/tricount.py
