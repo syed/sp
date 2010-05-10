@@ -7,7 +7,7 @@ using namespace std;
 bool vals[500001];
 int  pow(int  x, int n) {
 	int  aux = 1;
-	while (n > 0) 
+	while (n > 1 ) 
 	{
 	      if (n & 1) //odd 
 	      {    
