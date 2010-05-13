@@ -1,0 +1,6 @@
+recursive solution ...
+
+for lenth l find all the seq where l is the smallest no 
+
+
+seq(n) = seq(n-1) | n is smallest 
